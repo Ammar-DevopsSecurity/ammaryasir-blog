@@ -1,0 +1,30 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Ammar Yasir"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "Cybersecurity notes, Azure Entra ID, and things I'm learning."
+  author = "Ammar Yasir"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
